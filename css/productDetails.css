@@ -1,0 +1,43 @@
+.product-image{
+    flex-basis: 30%;
+}
+
+.product-image img{
+    width: 100%;
+}
+
+.product-details{
+    flex-basis: 60%;
+    margin-left: 2rem;
+}
+
+.product-details-title{
+    margin-top: 2rem;
+    
+}
+
+.product-details-title h2{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.product-price{
+    margin-top: 1rem;
+    font-size: 1.25rem;
+    color: #5e666e;
+}
+
+.product-description{
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-bottom: 2rem;
+}
+
+.product-details-actions{
+   gap: 2rem;
+   margin-bottom: 1.5rem;
+}
+
+#addToCart{
+    flex-basis: 50%;
+}

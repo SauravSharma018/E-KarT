@@ -1,0 +1,96 @@
+html{
+    box-sizing: border-box;
+}
+
+*, *:before, *::after{
+    box-sizing: inherit;
+}
+
+:root{
+    --medium-grey: #666666;
+    --dark-slate-grey: #2C2C2C;
+    --lighter-grey: #999999;
+    --darker-grey: #444444;
+    --slate-grey: #4D4D4D;
+}
+
+nav{
+    max-width: 100%;
+    padding: 1.5rem;
+    color: white;
+    
+}
+
+.nav-actions{
+    gap: 1.5rem;
+    font-size: 1.25rem;
+}
+
+.nav-actions a{
+    color: white;
+}
+.nav-title{
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.nav-title a{
+    color: white;
+}
+
+.nav-logout{
+    margin-right: 2rem;
+}
+
+.navbar a:hover{
+    font-weight: bold;
+}
+
+.footer{
+    background-color: #181a1c;
+    color: white;
+    max-height: 225px;
+}
+
+.footer-title{
+    flex-basis: 60%;
+    margin-bottom: 2rem;
+}
+
+.footer-title h3{
+    font-size: 4rem;
+}
+
+.footer-site-title{
+    margin: 2rem;
+    flex-basis: 30%;
+}
+
+.footer-links{
+    flex-basis: 30%;
+    margin: 2rem;
+    border-width: 0px 1px;
+    border-style: solid;
+    border-color: #5e666e;
+}
+
+.links-text{
+    margin: 0.25rem 0;
+    color: #5e666e;
+}
+
+.links-text:hover{
+    color: white;
+    font-weight: bold;
+}
+
+.secondary-title{
+    width: 70%;
+    font-size: 0.75rem;
+    color: #5e666e;
+}
+
+.social-links{
+    flex-basis: 30%;
+    margin: 2rem 0;
+}
